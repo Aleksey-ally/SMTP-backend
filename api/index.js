@@ -29,7 +29,7 @@ const transporter = nodemailer.createTransport({
 });
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://portfolio-sigma-orcin-13.vercel.app'],
     methods: ['GET', 'POST'],
 }));
 
